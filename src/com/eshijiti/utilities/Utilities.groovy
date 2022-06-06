@@ -1,5 +1,4 @@
-#!/usr/bin/groovy
-package com.eshijiti.utils
+package com.eshijiti.utilities
 
 class Utilities implements Serializable {
   def steps

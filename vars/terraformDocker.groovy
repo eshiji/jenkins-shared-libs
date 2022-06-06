@@ -1,9 +1,10 @@
-import com.eshiti.utilities
+package com.eshijiti.docker
+
+import com.eshijiti.utilities.Utilities
 
 def call(Closure body) {
   def utils = new Utilities(this)
-  node(any) {
-    def utils = new Utilities()
+  node('master') {
     stage('Tests') {
       echo 'Tests...'
     }
